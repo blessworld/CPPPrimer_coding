@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343B246D1885528B00BB75EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343B246C1885528B00BB75EF /* main.cpp */; };
+		343B246F1885528B00BB75EF /* CPPPrimer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 343B246E1885528B00BB75EF /* CPPPrimer.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		343B24661885528B00BB75EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				343B246F1885528B00BB75EF /* CPPPrimer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		343B24681885528B00BB75EF /* CPPPrimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPPrimer; sourceTree = BUILT_PRODUCTS_DIR; };
+		343B246C1885528B00BB75EF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		343B246E1885528B00BB75EF /* CPPPrimer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPPPrimer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343B24651885528B00BB75EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343B245D1885528A00BB75EF = {
+			isa = PBXGroup;
+			children = (
+				343B246B1885528B00BB75EF /* CPPPrimer */,
+				343B24691885528B00BB75EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		343B24691885528B00BB75EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				343B24681885528B00BB75EF /* CPPPrimer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343B246B1885528B00BB75EF /* CPPPrimer */ = {
+			isa = PBXGroup;
+			children = (
+				343B246C1885528B00BB75EF /* main.cpp */,
+				343B246E1885528B00BB75EF /* CPPPrimer.1 */,
+			);
+			path = CPPPrimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		343B24671885528B00BB75EF /* CPPPrimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343B24721885528B00BB75EF /* Build configuration list for PBXNativeTarget "CPPPrimer" */;
+			buildPhases = (
+				343B24641885528B00BB75EF /* Sources */,
+				343B24651885528B00BB75EF /* Frameworks */,
+				343B24661885528B00BB75EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPPPrimer;
+			productName = CPPPrimer;
+			productReference = 343B24681885528B00BB75EF /* CPPPrimer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		343B245F1885528A00BB75EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 343B24621885528A00BB75EF /* Build configuration list for PBXProject "CPPPrimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 343B245D1885528A00BB75EF;
+			productRefGroup = 343B24691885528B00BB75EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343B24671885528B00BB75EF /* CPPPrimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343B24641885528B00BB75EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343B246D1885528B00BB75EF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		343B24701885528B00BB75EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		343B24711885528B00BB75EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		343B24731885528B00BB75EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		343B24741885528B00BB75EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343B24621885528A00BB75EF /* Build configuration list for PBXProject "CPPPrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343B24701885528B00BB75EF /* Debug */,
+				343B24711885528B00BB75EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343B24721885528B00BB75EF /* Build configuration list for PBXNativeTarget "CPPPrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343B24731885528B00BB75EF /* Debug */,
+				343B24741885528B00BB75EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 343B245F1885528A00BB75EF /* Project object */;
+}
